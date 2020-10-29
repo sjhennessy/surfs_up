@@ -4,10 +4,10 @@
 
 ## Results 
 ### The June results show there are 1700 data points that range from 65 to 84 degrees. The data is in a tighter range than the December data with the 25% and 75% quartile numbers being only 4 degrees apart.
-
-
 ### The December results show there are less data points with a count of 1517 points that range from 56 to 83 degrees. The range of the data is slightly wider with the 25% and 75% quartile numbers being 5 degrees apart.
 ### The mean of the June and December databases are 75 and 71 degrees, respectively, and shows a comfortable temperature in both months which should be favorable for customer traffic. There are no significant outliers that should be concerning for the business owner. 
 
-## Summary
-Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+## Summary 
+### The business owner should feel confident operating in June and December according to the temperature data. The means, minimums, maximums, and quartiles are favorable toward the business operation without any significant outliers. However, additional analysis should be conducted to give the business more confidence in his/her decision to operate year-round.
+### One additional query that should be completed is the precipitation data in June and December. Although the temperature data is very favorable in those months, the precipitation could result in less foot traffic. For example, if more than half of the days in December had a pleasant temperature of 70 degress, but a significant amount of rain accompanied those 70 degree days, customer foot traffic could be much lower. The precipitation could be a detrimental factor and a query should be completed that filters the data for temperature and precipitation less than a determined amount for each week in June and December. A favorable standard for precipitation would have to be established such as 'less than 0.25 inches/week'. 
+### Another query that should be accomplished is the temperature and precipitation data for additional months. By only looking at June and December, the business owners are missing 10 months of temperature and precipitation data. I suggest to study the temperatures and precipitation in March and September to give the business owners more information to make a decision about year-round operation. I would create two additional dataframes for March and September that include not only the temperature, but also the precipitation amount. The same standard would be used such as 'less than 0.25 inches/week', and precipitation above that standard would be considered unfavorable.
